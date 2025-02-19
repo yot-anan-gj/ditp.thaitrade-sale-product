@@ -3,10 +3,11 @@ package configuration
 import (
 	"errors"
 	"fmt"
-	"gitlab.com/ditp.thaitrade/enginex/util/stringutil"
+
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/stringutil"
 )
 
-//Error Validator
+// Error Validator
 var (
 	ErrConfLogInvalidLevel = func(loglevel string) error {
 		return fmt.Errorf("error log config invalid level %s", loglevel)

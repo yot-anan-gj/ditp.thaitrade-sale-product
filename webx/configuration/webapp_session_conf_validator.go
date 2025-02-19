@@ -2,18 +2,18 @@ package configuration
 
 import (
 	"fmt"
+
 	"github.com/pkg/errors"
-	"gitlab.com/ditp.thaitrade/enginex/util/stringutil"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/stringutil"
 )
 
 var (
 	ErrorConfWebAppSessionRedisContextReq = errors.New("Redis Session Name is require")
 
 	ErrConfWebAppSessionRedisSessionNameDup = func(sessionName string) error {
-		return fmt.Errorf("error web redis session name %s is duplicate", sessionName,)
+		return fmt.Errorf("error web redis session name %s is duplicate", sessionName)
 	}
 )
-
 
 func validConfigWebAppRedisSession(config *Configuration) error {
 	if config == nil {
@@ -21,12 +21,12 @@ func validConfigWebAppRedisSession(config *Configuration) error {
 	}
 
 	sessionNameCount := make(map[string]int)
-	for _,redisSession := range config.WebApp.SessionStore.RedisStores{
-		if stringutil.IsEmptyString(redisSession.SessionName){
+	for _, redisSession := range config.WebApp.SessionStore.RedisStores {
+		if stringutil.IsEmptyString(redisSession.SessionName) {
 			return ErrorConfWebAppSessionRedisContextReq
 		}
 		sessionNameCount[redisSession.SessionName]++
-		if sessionNameCount[redisSession.SessionName] > 1{
+		if sessionNameCount[redisSession.SessionName] > 1 {
 			return ErrConfWebAppSessionRedisSessionNameDup(redisSession.SessionName)
 		}
 	}

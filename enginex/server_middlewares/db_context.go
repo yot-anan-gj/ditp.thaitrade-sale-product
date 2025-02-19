@@ -2,9 +2,9 @@ package server_middlewares
 
 import (
 	"github.com/labstack/echo"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database/nosql/aws_dynamodb"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_constant"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database/nosql/aws_dynamodb"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_constant"
 )
 
 func DBContextAppender(dbConnections database.Connections) echo.MiddlewareFunc {

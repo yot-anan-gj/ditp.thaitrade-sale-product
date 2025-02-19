@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	_ "github.com/lib/pq"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/stringutil"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/stringutil"
 )
 
 func Open(

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/common_bindings"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/dateutil"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/common_bindings"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/dateutil"
 )
 
 const (

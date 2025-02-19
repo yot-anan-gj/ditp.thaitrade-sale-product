@@ -13,12 +13,12 @@ import (
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database/postgres"
-	log "github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/echo_logrus"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_middlewares"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/session"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/webx/configuration"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database/postgres"
+	log "github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/echo_logrus"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_middlewares"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/session"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/webx/configuration"
 )
 
 var instant *WebServer

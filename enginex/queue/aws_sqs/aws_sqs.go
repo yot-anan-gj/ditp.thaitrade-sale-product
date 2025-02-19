@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	log "github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/echo_logrus"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/stringutil"
+	log "github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/echo_logrus"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/stringutil"
 )
 
 var sqsValidators = []SqsValidator{

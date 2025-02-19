@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/labstack/echo"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/common_bindings"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/database"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_constant"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/common_bindings"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/database"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_constant"
 )
 
 const WebAppDBCheckerName = "WebApp Database"

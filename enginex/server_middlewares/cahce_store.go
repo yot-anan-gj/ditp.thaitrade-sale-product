@@ -2,8 +2,8 @@ package server_middlewares
 
 import (
 	"github.com/labstack/echo"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/redisstore"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_constant"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/redisstore"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_constant"
 )
 
 func CacheStoreAppender(cacheStoreConnections redisstore.CacheStoreConnections) echo.MiddlewareFunc {

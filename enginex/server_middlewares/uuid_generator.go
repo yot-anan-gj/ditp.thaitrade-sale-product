@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/labstack/echo"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/session"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/uuid"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/session"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/uuid"
 )
 
 var (

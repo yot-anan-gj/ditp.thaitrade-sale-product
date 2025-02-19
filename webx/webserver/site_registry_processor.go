@@ -8,14 +8,14 @@ import (
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_constant"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/server_middlewares"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/session"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/fileutil"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/enginex/util/stringutil"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/webx/webserver_constant"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/webx/webserver_handlers"
-	"github.com/yot-anan-gj/ditp.thaitrade-v1/webx/webserver_middlewares"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_constant"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/server_middlewares"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/session"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/fileutil"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/enginex/util/stringutil"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/webx/webserver_constant"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/webx/webserver_handlers"
+	"github.com/yot-anan-gj/ditp.thaitrade-sale-product/webx/webserver_middlewares"
 )
 
 var (
